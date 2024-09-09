@@ -8,4 +8,5 @@ public class GameManager : MonoBehaviour
 {
     public static bool DebugRestartScene = true;
     public static bool Debug3SpawnPoints = true;
+    public static bool DebugTurnOffKey = true;
 }

@@ -41,7 +41,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.gameObject.CompareTag("FinishLine"))
         {
-            if (PlayerCollision.playerHasKey)
+            if (PlayerCollision.playerHasKey || GameManager.DebugTurnOffKey == true)
             {
                 playStateManager.SwitchState(playStateManager.FinishState);
 
