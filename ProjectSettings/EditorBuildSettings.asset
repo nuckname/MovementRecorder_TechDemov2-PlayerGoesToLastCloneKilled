@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/TestLevel3.unity
+    guid: 23f06308ecaaf9348a324426fbc5fc32
+  - enabled: 0
+    path: Assets/Other/Scenes/MainMenu.unity
+    guid: 7d82d02ecf884bd49966c8da4106f59c
+  - enabled: 0
+    path: Assets/Other/Scenes/1_SpawnPoint_3_Lanes.unity
+    guid: 9251ec8d0cde90d4f89415b47f921d7b
+  - enabled: 0
+    path: Assets/Other/Scenes/3_Spawn_Points.unity
+    guid: 6f41344181656e142ad6470f1fd3f7e5
+  - enabled: 1
+    path: Assets/Other/Scenes/Small_Map_3_lane.unity
+    guid: 6b60b7dda41e2664ab96a17b0b5499ee
+  m_configObjects: {}

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &611393874693835389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956425993609342529}
+  m_Layer: 0
+  m_Name: Katana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &956425993609342529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611393874693835389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.026444472, y: -0.013545918, z: 0.11559118, w: 0.99285245}
+  m_LocalPosition: {x: 0.542, y: 0.381, z: 0.567}
+  m_LocalScale: {x: 0.45866784, y: 0.49605066, z: 0.45866784}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1743775621718509802}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 3.19, y: -1.193, z: 13.248}
+--- !u!1001 &2286029591077842689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 956425993609342529}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31057
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31057
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.31057
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.306
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.615
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+      propertyPath: m_Name
+      value: Katana
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+--- !u!4 &1743775621718509802 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1066b04e6e183ae4fbb14d4450a94b78, type: 3}
+  m_PrefabInstance: {fileID: 2286029591077842689}
+  m_PrefabAsset: {fileID: 0}

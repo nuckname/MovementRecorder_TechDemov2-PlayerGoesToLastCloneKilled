@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FinishLine
+  - SpawnArea
+  - GameManager
+  - Ghost
+  - Bullet
+  - GhostBullet
+  - GhostToKill
+  - BoxRecorder
+  - BoxReplayGhostData
+  - FloorTP
+  - ExtendedFinishLine
+  - TronBullet
+  - UI
+  - NavMesh
+  - pointBox
+  - SpawnedBox
+  - Key
+  - GhostKey
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - NoNavMesh
+  - Bullet
+  - damageLayerMask
+  - WeaponSpawnArea
+  - Highligh
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
