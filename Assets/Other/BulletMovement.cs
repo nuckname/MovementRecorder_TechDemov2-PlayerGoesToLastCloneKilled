@@ -11,7 +11,7 @@ public class BulletMovement : MonoBehaviour
 
     private void Update() {
         // Move the bullet towards the target point
-        float step = speed * Time.deltaTime;
+        float step = speed * Time.deltaTime * MouseControlledPlayback.playbackSpeed;
         transform.position = Vector3.MoveTowards(transform.position, target, step);
 
         // Check if the bullet reached the target point

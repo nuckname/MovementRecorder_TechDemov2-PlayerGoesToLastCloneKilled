@@ -28,7 +28,8 @@ public class GhostReplayData : MonoBehaviour
         {
             //_timeValue += Time.unscaledDeltaTime;
             //performance??
-            _timeValue = WorldTimer.WorldTimeValue;
+            _timeValue += Time.unscaledDeltaTime * MouseControlledPlayback.playbackSpeed;
+
             
             // Check if the replay has finished
             if (_timeValue > ghostData.timeStamp[ghostData.timeStamp.Count - 1])
